@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="table 1 orders:" />
+
+    </ScrollView>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <Button
+                android:id="@+id/whitewine"
+                style="@style/CustomButton"
+                android:backgroundTint="#FFD655"
+                android:text="wine" />
+
+            <Button
+                style="@style/CustomButton"
+                android:backgroundTint="#722f37"
+                android:textColor="#fff"
+                android:text="wine" />
+
+            <Button
+                style="@style/CustomButton"
+                android:backgroundTint="#DDD78D"
+                android:text="Champ" />
+
+            <Button
+                style="@style/CustomButton"
+                android:backgroundTint="#BF832F"
+                android:text="beer" />
+            <Button
+                style="@style/CustomButton"
+                android:backgroundTint="#ff3333"
+                android:textColor="#fff"
+                android:text="soft" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <Button
+                style="@style/CustomButton"
+                android:text="starter" />
+
+            <Button
+                style="@style/CustomButton"
+                android:text="main" />
+
+            <Button
+                style="@style/CustomButton"
+                android:text="dessert" />
+
+            <Button
+                style="@style/CustomButton"
+                android:backgroundTint="#F9A38B"
+                android:text="cocktail" />
+            <Button
+                style="@style/CustomButton"
+                android:backgroundTint="#4db8ff"
+                android:text="spirit" />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+</RelativeLayout>

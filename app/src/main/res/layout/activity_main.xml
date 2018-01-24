@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context="com.example.csaba.restaurant1.MainActivity"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/row1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/table12"
+                android:layout_width="@dimen/singleTable"
+                android:layout_height="@dimen/singleTable"
+                android:layout_marginHorizontal="@dimen/tableSpace"
+                android:background="@color/colorPrimaryDark"
+                android:gravity="center"
+                android:text="12"
+                android:textColor="@color/text" />
+
+            <TextView
+                android:id="@+id/table11"
+                android:layout_width="@dimen/singleTable"
+                android:layout_height="@dimen/singleTable"
+                android:layout_marginHorizontal="@dimen/tableSpace"
+                android:background="@color/colorPrimaryDark"
+                android:gravity="center"
+                android:text="11"
+                android:textColor="@color/text"
+
+                />
+
+            <TextView
+                android:id="@+id/table10"
+                android:layout_width="@dimen/singleTable"
+                android:layout_height="@dimen/singleTable"
+                android:layout_marginHorizontal="@dimen/tableSpace"
+                android:background="@color/colorPrimaryDark"
+                android:gravity="center"
+                android:text="10"
+                android:textColor="@color/text" />
+
+            <TextView
+                android:id="@+id/table9"
+                android:layout_width="@dimen/singleTable"
+                android:layout_height="@dimen/singleTable"
+                android:layout_marginHorizontal="@dimen/tableSpace"
+                android:background="@color/colorPrimaryDark"
+                android:gravity="center"
+                android:text="9"
+                android:textColor="@color/text"
+
+                />
+
+            <TextView
+                android:id="@+id/table8"
+                android:layout_width="@dimen/singleTable"
+                android:layout_height="@dimen/singleTable"
+                android:layout_marginHorizontal="@dimen/tableSpace"
+                android:background="@color/colorPrimaryDark"
+                android:gravity="center"
+                android:text="8"
+                android:textColor="@color/text"
+
+                />
+
+            <TextView
+                android:id="@+id/table7"
+                android:layout_width="@dimen/singleTable"
+                android:layout_height="@dimen/singleTable"
+                android:layout_marginHorizontal="@dimen/tableSpace"
+                android:background="@color/colorPrimaryDark"
+                android:gravity="center"
+                android:text="7"
+                android:textColor="@color/text"
+
+                />
+
+            <TextView
+                android:id="@+id/table6"
+                android:layout_width="@dimen/singleTable"
+                android:layout_height="@dimen/singleTable"
+                android:layout_marginHorizontal="@dimen/tableSpace"
+                android:background="@color/colorPrimaryDark"
+                android:gravity="center"
+                android:text="6"
+                android:textColor="@color/text"
+
+                />
+
+            <TextView
+                android:id="@+id/table5"
+                android:layout_width="@dimen/singleTable"
+                android:layout_height="@dimen/singleTable"
+                android:layout_marginHorizontal="@dimen/tableSpace"
+                android:background="@color/colorPrimaryDark"
+                android:gravity="center"
+                android:text="5"
+                android:textColor="@color/text" />
+
+            <TextView
+                android:id="@+id/table4"
+                android:layout_width="@dimen/singleTable"
+                android:layout_height="@dimen/singleTable"
+                android:layout_marginHorizontal="@dimen/tableSpace"
+                android:background="@color/colorPrimaryDark"
+                android:gravity="center"
+                android:text="4"
+                android:textColor="@color/text" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/row20"
+            android:layout_width="50dp"
+            android:layout_height="350dp"
+            android:layout_below="@+id/row1"
+            android:orientation="vertical"
+            android:layout_marginHorizontal="8dp">
+
+            <TextView
+                android:id="@+id/table26"
+                android:layout_width="@dimen/singleTable"
+                android:layout_height="@dimen/singleTable"
+                android:layout_marginVertical="@dimen/tableSpace"
+                android:background="@color/colorPrimaryDark"
+                android:gravity="center"
+                android:text="26"
+                android:textColor="@color/text" />
+            <TextView
+                android:id="@+id/table25"
+                android:layout_width="@dimen/singleTable"
+                android:layout_height="@dimen/singleTable"
+                android:layout_marginVertical="@dimen/tableSpace"
+                android:background="@color/colorPrimaryDark"
+                android:gravity="center"
+                android:text="25"
+                android:textColor="@color/text" />
+            <TextView
+                android:id="@+id/table24"
+                android:layout_width="@dimen/singleTable"
+                android:layout_height="@dimen/singleTable"
+                android:layout_marginVertical="@dimen/tableSpace"
+                android:background="@color/colorPrimaryDark"
+                android:gravity="center"
+                android:text="24"
+                android:textColor="@color/text" />
+            <TextView
+                android:id="@+id/table23"
+                android:layout_width="@dimen/singleTable"
+                android:layout_height="@dimen/singleTable"
+                android:layout_marginVertical="@dimen/tableSpace"
+                android:background="@color/colorPrimaryDark"
+                android:gravity="center"
+                android:text="23"
+                android:textColor="@color/text" />
+            <TextView
+                android:id="@+id/table22"
+                android:layout_width="@dimen/singleTable"
+                android:layout_height="@dimen/singleTable"
+                android:layout_marginVertical="@dimen/tableSpace"
+                android:background="@color/colorPrimaryDark"
+                android:gravity="center"
+                android:text="22"
+                android:textColor="@color/text" />
+            <TextView
+                android:id="@+id/table21"
+                android:layout_width="@dimen/singleTable"
+                android:layout_height="@dimen/singleTable"
+                android:layout_marginVertical="@dimen/tableSpace"
+                android:background="@color/colorPrimaryDark"
+                android:gravity="center"
+                android:text="21"
+                android:textColor="@color/text" />
+            <TextView
+                android:id="@+id/table31"
+                android:layout_width="@dimen/singleTable"
+                android:layout_height="@dimen/singleTable"
+                android:layout_marginVertical="@dimen/tableSpace"
+                android:background="@color/colorPrimaryDark"
+                android:gravity="center"
+                android:text="31"
+                android:textColor="@color/text" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/row30"
+            android:layout_width="50dp"
+            android:layout_height="350dp"
+            android:layout_toRightOf="@+id/row20"
+            android:orientation="vertical"
+            android:layout_marginHorizontal="8dp"
+            android:paddingTop="50dp">
+
+            <Button
+                android:id="@+id/table36"
+                android:layout_width="@dimen/singleTable"
+                android:layout_height="@dimen/doubleTable"
+                android:layout_marginVertical="25dp"
+                android:background="@color/colorPrimaryDark"
+                android:gravity="center"
+                android:text="36"
+                android:textColor="@color/text" />
+            <Button
+                android:id="@+id/table35"
+                android:layout_width="@dimen/singleTable"
+                android:layout_height="@dimen/doubleTable"
+                android:layout_marginVertical="@dimen/tableSpace"
+                android:background="@color/colorPrimaryDark"
+                android:gravity="center"
+                android:text="35"
+                android:textColor="@color/text" />
+            <Button
+                android:id="@+id/table33"
+                android:layout_width="@dimen/doubleTable"
+                android:layout_height="@dimen/singleTable"
+                android:layout_marginVertical="@dimen/tableSpace"
+                android:background="@color/colorPrimaryDark"
+                android:gravity="center"
+                android:text="33"
+                android:textColor="@color/text" />
+            <Button
+                android:id="@+id/table32"
+                android:layout_width="@dimen/singleTable"
+                android:layout_height="@dimen/doubleTable"
+                android:layout_marginVertical="@dimen/tableSpace"
+                android:background="@color/colorPrimaryDark"
+                android:gravity="center"
+                android:text="32"
+                android:textColor="@color/text" />
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/row40"
+        android:layout_width="50dp"
+        android:layout_height="350dp"
+        android:layout_toRightOf="@+id/row30"
+        android:orientation="vertical"
+        android:layout_marginHorizontal="8dp"
+        android:paddingTop="50dp">
+
+        <Button
+            android:id="@+id/table45"
+            android:layout_width="@dimen/singleTable"
+            android:layout_height="@dimen/singleTable"
+            android:layout_marginVertical="@dimen/tableSpace"
+            android:background="@color/colorPrimaryDark"
+            android:gravity="center"
+            android:text="45"
+            android:textColor="@color/text" />
+        <Button
+            android:id="@+id/table44"
+            android:layout_width="@dimen/singleTable"
+            android:layout_height="@dimen/singleTable"
+            android:layout_marginVertical="@dimen/tableSpace"
+            android:background="@color/colorPrimaryDark"
+            android:gravity="center"
+            android:text="44"
+            android:textColor="@color/text" />
+        <Button
+            android:id="@+id/table43"
+            android:layout_width="@dimen/singleTable"
+            android:layout_height="@dimen/doubleTable"
+            android:layout_marginVertical="@dimen/tableSpace"
+            android:background="@color/colorPrimaryDark"
+            android:gravity="center"
+            android:text="43"
+            android:textColor="@color/text" />
+        <Button
+            android:id="@+id/table42"
+            android:layout_width="@dimen/singleTable"
+            android:layout_height="@dimen/singleTable"
+            android:layout_marginVertical="@dimen/tableSpace"
+            android:background="@color/colorPrimaryDark"
+            android:gravity="center"
+            android:text="42"
+            android:textColor="@color/text" />
+        <Button
+            android:id="@+id/table41"
+            android:layout_width="@dimen/singleTable"
+            android:layout_height="@dimen/doubleTable"
+            android:layout_marginVertical="@dimen/tableSpace"
+            android:background="@color/colorPrimaryDark"
+            android:gravity="center"
+            android:text="41"
+            android:textColor="@color/text" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/row50"
+        android:layout_width="50dp"
+        android:layout_height="350dp"
+        android:layout_toRightOf="@+id/row40"
+        android:orientation="vertical"
+        android:layout_marginHorizontal="8dp"
+        android:paddingTop="50dp">
+
+    <Button
+        android:id="@+id/table51"
+        android:layout_width="@dimen/singleTable"
+        android:layout_height="@dimen/doubleTable"
+        android:layout_marginVertical="@dimen/tableSpace"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:text="51"
+        android:textColor="@color/text" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/row123"
+        android:layout_width="50dp"
+        android:layout_height="350dp"
+        android:layout_toRightOf="@+id/row50"
+        android:orientation="vertical"
+        android:layout_marginHorizontal="8dp"
+        android:paddingTop="50dp">
+
+        <Button
+            android:id="@+id/table3"
+            android:layout_width="@dimen/singleTable"
+            android:layout_height="@dimen/doubleTable"
+            android:layout_marginVertical="@dimen/tableSpace"
+            android:background="@color/colorPrimaryDark"
+            android:gravity="center"
+            android:text="3"
+            android:textColor="@color/text" />
+
+        <Button
+            android:id="@+id/table2"
+            android:layout_width="@dimen/singleTable"
+            android:layout_height="@dimen/doubleTable"
+            android:layout_marginVertical="@dimen/tableSpace"
+            android:background="@color/colorPrimaryDark"
+            android:gravity="center"
+            android:text="2"
+            android:textColor="@color/text" />
+
+        <Button
+            android:id="@+id/table1"
+            android:layout_width="@dimen/singleTable"
+            android:layout_height="@dimen/doubleTable"
+            android:layout_marginVertical="@dimen/tableSpace"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:text="1"
+            android:textColor="@color/text" />
+
+
+
+    </LinearLayout>
+
+    </RelativeLayout>
+

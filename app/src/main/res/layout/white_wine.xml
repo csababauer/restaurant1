@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <RadioGroup
+        android:id="@+id/size"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:paddingHorizontal="2dp"
+        android:textAlignment="center">
+
+        <RadioButton
+            android:textSize="@dimen/radioSize"
+            android:layout_marginRight="-10dp"
+            android:id="@+id/bottle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="bottle" />
+
+        <RadioButton
+            android:textSize="@dimen/radioSize"
+            android:layout_marginRight="-10dp"
+            android:id="@+id/setGlass"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="125ml" />
+
+        <RadioButton
+            android:textSize="@dimen/radioSize"
+            android:layout_marginRight="-10dp"
+            android:id="@+id/smallGlass"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="175ml" />
+
+        <RadioButton
+            android:textSize="@dimen/radioSize"
+            android:layout_marginRight="-10dp"
+            android:id="@+id/largeGlass"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="250ml" />
+
+        <RadioButton
+            android:textSize="@dimen/radioSize"
+            android:id="@+id/spitzer"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="spitzer" />
+
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <Button
+            android:id="@+id/ww1"
+            style="@style/CustomButton"
+            android:layout_height="60dp"
+            android:backgroundTint="#FFD655"
+            android:text="Begude Sav Blanc" />
+
+        <Button
+            android:id="@+id/ww2"
+            style="@style/CustomButton"
+            android:layout_height="60dp"
+            android:backgroundTint="#FFD655"
+            android:text="Bourgogne Chardonay" />
+
+        <Button
+            android:id="@+id/ww3"
+            style="@style/CustomButton"
+            android:layout_height="60dp"
+            android:backgroundTint="#FFD655"
+            android:text="Cave De Masse" />
+
+        <Button
+            android:id="@+id/ww4"
+            style="@style/CustomButton"
+            android:layout_height="60dp"
+            android:backgroundTint="#FFD655"
+            android:text="Chablis Premiere" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <Button
+            android:id="@+id/ww5"
+            style="@style/CustomButton"
+            android:layout_height="60dp"
+            android:backgroundTint="#FFD655"
+            android:text="Chablis" />
+
+        <Button
+            android:id="@+id/ww6"
+            style="@style/CustomButton"
+            android:layout_height="60dp"
+            android:backgroundTint="#FFD655"
+            android:text="Granfort Chardonay" />
+
+        <Button
+            android:id="@+id/ww7"
+            style="@style/CustomButton"
+            android:layout_height="60dp"
+            android:backgroundTint="#FFD655"
+            android:text="L. Jadot Mersault" />
+
+        <Button
+            android:id="@+id/ww8"
+            style="@style/CustomButton"
+            android:layout_height="60dp"
+            android:backgroundTint="#FFD655"
+            android:text="La Fuzelle Sancere" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <Button
+            android:id="@+id/ww9"
+            style="@style/CustomButton"
+            android:layout_height="60dp"
+            android:backgroundTint="#FFD655"
+            android:text="Lamothe Bouscault" />
+
+        <Button
+            android:id="@+id/ww10"
+            style="@style/CustomButton"
+            android:layout_height="60dp"
+            android:backgroundTint="#FFD655"
+            android:text="Muscadet" />
+
+        <Button
+            android:id="@+id/ww11"
+            style="@style/CustomButton"
+            android:layout_height="60dp"
+            android:backgroundTint="#FFD655"
+            android:text="Oakridge Chardonay" />
+
+        <Button
+            android:id="@+id/ww12"
+            style="@style/CustomButton"
+            android:layout_height="60dp"
+            android:backgroundTint="#FFD655"
+            android:text="Picpoul" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <Button
+            android:id="@+id/ww13"
+            style="@style/CustomButton"
+            android:layout_height="60dp"
+            android:backgroundTint="#FFD655"
+            android:text="Pinot Grigio" />
+
+        <Button
+            android:id="@+id/ww14"
+            style="@style/CustomButton"
+            android:layout_height="60dp"
+            android:backgroundTint="#FFD655"
+            android:text="Pinot Gris" />
+
+        <Button
+            android:id="@+id/ww15"
+            style="@style/CustomButton"
+            android:layout_height="60dp"
+            android:backgroundTint="#FFD655"
+            android:text="Puligny Montrach" />
+
+        <Button
+            android:id="@+id/ww16"
+            style="@style/CustomButton"
+            android:layout_height="60dp"
+            android:backgroundTint="#FFD655"
+            android:text="Pulpo Albarino" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <Button
+            android:id="@+id/ww17"
+            style="@style/CustomButton"
+            android:layout_height="60dp"
+            android:backgroundTint="#FFD655"
+            android:text="Seuil Blanc" />
+
+        <Button
+            android:id="@+id/ww18"
+            style="@style/CustomButton"
+            android:layout_height="60dp"
+            android:backgroundTint="#FFD655"
+            android:text="Son Ex Sav Blanc" />
+
+        <Button
+            android:id="@+id/ww19"
+            style="@style/CustomButton"
+            android:layout_height="60dp"
+            android:backgroundTint="#FFD655"
+            android:text="Vidal Sav Blanc" />
+
+        <Button
+            style="@style/CustomButton"
+            android:layout_height="60dp"
+            android:backgroundTint="#fff"
+            android:clickable="false"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:paddingHorizontal="30dp">
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:scrollbarAlwaysDrawVerticalTrack="true"
+            android:scrollbarSize="25dp"
+            android:scrollbarStyle="insideInset"
+            android:scrollbars="vertical"
+            android:fadeScrollbars="false"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+
+                <TableLayout
+                    android:id="@+id/orderListWW"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <Button
+            android:id="@+id/cancelLastWW"
+            style="@style/CustomButton"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/cancellast"
+            android:text="cancel last item"
+            android:onClick="cancelLastItem"/>
+
+        <Button
+            android:id="@+id/cancelAllWW"
+            style="@style/CustomButton"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/cancelall"
+            android:text="Cancel all" />
+
+        <Button
+            android:id="@+id/orderWW"
+            style="@style/CustomButton"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/order"
+            android:text="Order" />
+
+        <Button
+            android:id="@+id/backWW"
+            style="@style/CustomButton"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/back"
+            android:text="back" />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
